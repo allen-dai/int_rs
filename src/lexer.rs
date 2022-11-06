@@ -212,7 +212,7 @@ fn test_next_token() {
     ];
     for expected in tests {
         let token = lexer.next_token();
-        println!("\n{:?}\n{:?}", expected, token);
+        //println!("\n{:?}\n{:?}", expected, token);
         assert!(token == expected);
     }
 }
